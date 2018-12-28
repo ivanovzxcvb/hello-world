@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="184b0484-c8a1-4a06-965b-1450a07607f5">
+  <producedTypes>
+    <objectType typeId="f5413fb4-4713-4ef5-8097-560b93996a75" valueTypeId="66d1ee3f-f446-4ee6-befa-afc7040eb088"/>
+    <refType typeId="15c80501-e1ee-4710-830f-43cfe37f9682" valueTypeId="ab6816a1-2d74-4265-9851-19dee8e0db14"/>
+    <selectionType typeId="2a0aaf62-040a-42a5-b687-b79269d8270f" valueTypeId="9099023b-0a04-4e26-a724-d371f6c1313e"/>
+    <listType typeId="baecdd67-3e3f-41e4-a6ec-ed361cd62873" valueTypeId="adfc591c-5308-489c-8d10-fc9202857d7f"/>
+    <managerType typeId="505f4ad6-b997-4f88-8c6d-9480b5779c40" valueTypeId="d985cd31-9797-47a9-8d53-cd8f227d042f"/>
+  </producedTypes>
+  <name>кпдКонструкторДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор документов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.кпдКонструкторДокументов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.кпдКонструкторДокументов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Конструктор документа</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.кпдКонструкторДокументов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.кпдКонструкторДокументов.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="59ee9bac-6f56-4f4b-b04a-81a7b16a46ab">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f89e20f2-6049-445f-866d-f7fcad5cf556">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
