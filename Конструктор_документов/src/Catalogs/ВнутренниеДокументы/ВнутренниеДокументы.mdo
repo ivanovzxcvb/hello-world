@@ -1255,6 +1255,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ff6a9acf-2b14-41db-9ddf-5b04ba6d05ef">
+    <name>ТестGITа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест GITа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6ead62c7-a630-436e-83e6-acac20456bbd">
+    <name>ТестGIT2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест GIT2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="6591a704-2a20-492b-bdb9-85e382ddb6c5">
     <producedTypes>
       <objectType typeId="94ea4137-07fa-4900-b5c0-68c7ad46a79c" valueTypeId="f95aed24-4427-4ce9-ad34-9e8a67642a92"/>
